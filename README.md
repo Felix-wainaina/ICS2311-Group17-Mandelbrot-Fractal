@@ -30,7 +30,7 @@ Each point in the complex plane is tested to determine whether it remains bounde
 ```
 ICS2311-Group17-Mandelbrot-Fractal/
 │
-├── mandelbrot.cpp          # C++ OpenGL implementation
+├── mandelbrot_OpenGl.cpp          # C++ OpenGL implementation
 ├── mandelbrot.exe          # Compiled executable (Windows)
 ├── mandelbrot_python.py    # Python implementation
 ├── mandelbrot_output.png   # Output image (Python)
@@ -40,7 +40,7 @@ ICS2311-Group17-Mandelbrot-Fractal/
 
 ---
 
-## 🖥️ 1. C++ OpenGL Version (`mandelbrot.cpp`)
+## 🖥️ 1. C++ OpenGL Version (`mandelbrot_OpenGl.cpp`)
 
 ### 🔹 Description
 
@@ -58,7 +58,7 @@ This implementation renders the Mandelbrot Set in **real-time** using OpenGL and
 ### ⚙️ Compilation (Windows – MinGW)
 
 ```bash
-g++ mandelbrot.cpp -o mandelbrot.exe -lglut32 -lglu32 -lopengl32
+g++ mandelbrot_OpenGl.cpp -o mandelbrot.exe -lfreeglut -lglu32 -lopengl32
 ```
 
 ---
